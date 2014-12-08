@@ -1,7 +1,7 @@
 contracts-problem-yipl
 ======================
 
-First, create a virtualenv using mkvirtualenv <env_name> command, where <env_name> is the name of the virtual environment.
+First, create a virtualenv using mkvirtualenv env_name command, where env_name is the name of the virtual environment.
 
 Then run the following command:
 
