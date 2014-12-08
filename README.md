@@ -4,9 +4,10 @@ contracts-problem-yipl
 First, create a virtualenv using mkvirtualenv <env_name> command, where <env_name> is the name of the virtual environment.
 
 Then run the following command:
+
 	pip install -r requirements.txt
 
-	which will install all the required modules (only 1 in this case)
+which will install all the required modules (only 1 in this case)
 
 After the installation is complete run "python metal.py" command to run the script.
 
