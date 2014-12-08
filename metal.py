@@ -35,12 +35,8 @@ result = 'The total amount of closed awarded contracts :' + str(total_closed_awa
 
 geolocator = Nominatim()
 
-list_of_locations = []
-
 for row in merged:
     if 'awardeeLocation' in row:
-        location = row['awardeeLocation']
-        list_of_locations.append(location)
         location = geolocator.geocode(row['awardeeLocation'])
         print 'loading.....'
         if location is not None:
